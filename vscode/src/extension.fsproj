@@ -3,9 +3,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Node.fs" />
-    <Compile Include="Yargs.fs" />
-    <Compile Include="App.fs" />
+    <Compile Include="VSCode.fs" />
+    <Compile Include="extension.fs" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
